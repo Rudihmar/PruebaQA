@@ -74,3 +74,12 @@ time.sleep(2)
 add = driver.find_element(By.XPATH,'/html[1]/body[1]/div[4]/div[1]/div[1]/div[2]/form[1]/div[7]/div[1]/button[1]')
 add.click()
 time.sleep(2)
+
+'''click eliminar'''
+editar = driver.find_element(By.CSS_SELECTOR,'div.body-height:nth-child(2) div.container.playgound-body div.row div.col-12.mt-4.col-md-6:nth-child(2) div.web-tables-wrapper:nth-child(2) div.ReactTable.-striped.-highlight div.rt-table div.rt-tbody div.rt-tr-group:nth-child(4) div.rt-tr.-even div.rt-td:nth-child(7) div.action-buttons span:nth-child(2) > svg:nth-child(1)')
+editar.click()
+print('Eliminar usuario')
+time.sleep(2)
+
+time.sleep(5)
+driver.close()
