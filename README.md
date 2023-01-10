@@ -20,4 +20,4 @@ Instrucciones para ejecutar la prueba:
 > Solo debe ir a la pestaña "run" y ejecutar el archivo identificado con el nombre PruebaEquifax.
 > Otra opcion es darle click al icono run directamente.
 
-![Image]()
+![Image](https://github.com/Rudihmar/PruebaQA/blob/master/PruebaEquifax.png)
